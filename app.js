@@ -41,7 +41,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
         var input=document.querySelector('.winning-score').value;
         if(input){
             winningScore=input;
-        }else winningScore=10;
+        }else winningScore=100;
         
     if(score[activePlayer]>=winningScore){
         document.querySelector('#name-'+activePlayer).textContent='WINNER!';
